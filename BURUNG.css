@@ -1,0 +1,45 @@
+body {
+  background-color: blanchedalmond;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+r;
+  color: red;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; 
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
